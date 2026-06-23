@@ -5,9 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/url"
-	"service-kit/api"
 	"sync"
 	"time"
+
+	"github.com/prajwal-jarali/service-kit/api"
 )
 
 type IamApiKey struct {
